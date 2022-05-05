@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>Zoom Timetable</title>
+
+  <style>
+
+      table,th,td,tr{
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        /* border: 1px solid white; */
+        font-size: 28px;
+        padding: 12px 23px 8px;
+      }
+      th{
+        background-color: #98C0D9;
+        color: #3D5B81;
+        font-family: "BigJohnPRO-Regular"
+      }
+
+
+      td, tr{
+        font-size: 18px;
+        /* padding: 14px 25px 10px; */
+      }
+      td:hover, th:hover{
+        background-color: #DFFBFC;
+      }
+      body{
+          background-color: #3D5B81;
+          color: #3D5B81;
+          font-family: "Manrope";
+      }
+      .lesson{
+        background-color: #98C0D9;
+      }
+      a{
+        color: #3D5B81;
+      }
+      :link{
+        text-decoration: none;
+      }
+      #box:hover{
+        transform: scale(1.2);
+        transition: .25s;
+      }
+      .cusis{
+        font-size: 15px;
+        text-align: center;
+        padding:10px;
+        background-color:#98C0D9;
+        font-family: "BigJohnPRO-BOLD"
+      }
+      test{
+        display:block;
+        width:100%;
+      }
+      .time{
+        color:#98C0D9;
+      }
+      #box2:hover{
+        background-color: #3D5B81
+      }
+      .cusis:hover{
+        background-color: #DFFBFC;
+      }
+      p{
+        color: #3D5B81;
+        margin-left: 45%;
+        margin-right: 45%;
+        background-color:#98C0D9;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  </style>
+</head>
+
+<body>
+
+  <p style="text-align:center;">1155158762</p>
+  <table style="text-align:center;">
+  <tr>
+    <td id="box2">  <a class="cusis" target="_blank" href="https://cusis.cuhk.edu.hk/">CUSIS</a> <br> <br> <a class="cusis" target="_blank" href="https://blackboard.cuhk.edu.hk/ultra/course">BlackBoard</a> </td><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2" class="time">08:00AM</td>  <td></td> <td></td> <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td rowspan="2" class="lesson" id ="box"> <a href="https://cuhk.zoom.us/j/93037783813?pwd=STExeHBmQ0FGSnVTY2dJYVZIK1NrQT09" target="_blank">PHYS 1110 - BT03 <br>Interactive Tutorial <br>8:30AM - 9:15AM</a></td> <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">09:00AM</td>  <td></td> <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td rowspan="2" class="lesson" id ="box"> <a href="https://cuhk.zoom.us/j/93037783813?pwd=STExeHBmQ0FGSnVTY2dJYVZIK1NrQT09" target="_blank">PHYS 1110 - BE03 <br>Exercise <br>9:30AM - 10:15AM </a> </td> <td></td> <td rowspan="4" class="lesson" id ="box"><a href="https://cuhk.zoom.us/j/91218269285?pwd=K0NxY0hCaCtCd3M5Mm5kdzNaWEpOQT09" target="_blank" >MATH 1510 - D <br>Lecture <br>9:30AM - 11:15AM</a></td> <td class="lesson" id ="box" rowspan="4"><a href="https://cuhk.zoom.us/j/91782989299?pwd=V3dpWVB4ZkRRa3p5NzZRRDFnbmEyUT09" target="_blank">MATH 1020 - D <br>Lecture <br>9:30AM - 11:15AM</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">10:00AM</td>  <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4" id ="box" class="lesson">  <a href="https://cuhk.zoom.us/j/93435467066?pwd=aWxuVXpkMnovYXRNWm1uL0l5OFlpQT09" target="_blank">PHED 1041 - D Lecture <br>10:30AM - 12:15PM</a></td>  <td rowspan="2" class="lesson" id ="box"><a href="https://cuhk.zoom.us/j/93998006380?pwd=SnRIRHdseUlBQWRmekRVNkdmc24vUT09" target="_blank"> PHYS 1110 - B <br>Lecture <br>10:30AM - 11:15AM</a></td> <td rowspan="2" class="lesson" id ="box" > <a href="https://cuhk.zoom.us/j/91782989299?pwd=V3dpWVB4ZkRRa3p5NzZRRDFnbmEyUT09" target="_blank">MATH 1020 - D  <br> Lecture <br> 10:30AM - 11:15AM</a> </td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">11:00AM</td>
+  </tr>
+  <tr>
+    <td></td>  <td rowspan="2" class="lesson" id="box"><a href="https://cuhk.zoom.us/j/91782989299?pwd=V3dpWVB4ZkRRa3p5NzZRRDFnbmEyUT09" target="_blank">MATH 1020 - DT01 <br>Interactive Tutorial <br>11:30AM - 12:15PM</a></td> <td class="lesson" id ="box" rowspan="4"><a href="https://cuhk.zoom.us/j/97661574647?pwd=TzZzaHp4REdOcVZyL1RQU2RJb2ZUUT09" target="_blank">PHYS 1110 - B <br>Lecture <br>11:30AM - 1:15PM</a></td>  <td class="lesson" id ="box" rowspan="4"><a href="https://cuhk.zoom.us/j/95525375248?pwd=ckFGclhnaTFoUndwVmE2TXIxNVdYUT09" target="_blank">GECC 1000 - AA01 <br>Assembly <br>11:30AM - 1:15PM</a></td>
+  <tr>
+    <td rowspan="2" class="time">12:00AM</td>  <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">01:00PM</td>  <td rowspan="1"></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="lesson" id = "box"><a href="https://cuhk.zoom.us/j/91218269285?pwd=K0NxY0hCaCtCd3M5Mm5kdzNaWEpOQT09" target="_blank">MATH 1510 - DT01 <br>Interactive Tutorial <br>1:30PM - 2:15PM</a></td>  <td></td> <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">02:00PM</td>  <td></td> <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="lesson" id ="box"><a href="https://cuhk.zoom.us/j/91218269285?pwd=K0NxY0hCaCtCd3M5Mm5kdzNaWEpOQT09" target="_blank">MATH 1510 - D <br>Lecture <br>2:30PM - 3:15PM</a></td>  <td></td> <td></td> <td></td> <td class="lesson"  id ="box"rowspan="4"><a href="https://blackboard.cuhk.edu.hk/ultra/courses/_142782_1/cl/outline" target="_blank"> GECC 1130 - - <br>Lecture <br>2:30PM - 4:15PM</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">03:00PM</td>  <td></td> <td></td> <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td></td> <td rowspan="2"  id ="box" class="lesson"><a href="https://cuhk.zoom.us/j/412486871?pwd=VzZnMkhjREl1WEU1SS9ld2ZXalBwdz09" target="_blank">ENGG 1110 - E <br>Lecture <br>3:30PM - 4:15PM</a></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">04:00PM</td>  <td><td rowspan="5" class="lesson" id ="box"><a href="https://cuhk.zoom.us/j/94741168125?pwd=MysrMmwxdlVjTStrQVJOdktnRTZoQT09" target="_blank">CHLT 1100 - FF <br> Lecture <br> 3:30PM - 6:15PM</a></td></td> <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4" class="lesson" id ="box" ><a href="https://cuhk.zoom.us/j/412486871?pwd=VzZnMkhjREl1WEU1SS9ld2ZXalBwdz09" target="_blank">ENGG 1110 - E <br>Lecture <br>4:30PM - 6:15PM</a></td>  <td rowspan="2" id ="box" class="lesson"><a href="https://cuhk.zoom.us/j/412486871?pwd=VzZnMkhjREl1WEU1SS9ld2ZXalBwdz09" target="_blank">ENGG 1110 - EL01 <br>Laboratory <br>4:30PM - 5:15PM</a></td> <td></td>  <td class="lesson"  id ="box" rowspan="4"><a href="https://cuhk.zoom.us/j/97858965023?pwd=d0NXMXR6dnlVeTFMcXlwNitaZkNPdz09" target="_blank">GECC 1131 - -D01 <br>Discussion <br>4:30PM - 6:15PM</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">05:00PM</td>  <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="time">06:00PM</td>  <td></td>
+  </tr>
+  <tr>
+    <td></td>  <td></td> <td></td> <td></td> <td></td>
+  </tr>
+
+
+  </table>
+
+<!-- <br><div style="text-align:center;">
+  <a class="cusis" href="http://cuhk.edu.hk/">CUSIS</a>
+  <a class="cusis" href="https://blackboard.cuhk.edu.hk/ultra/course">BlackBoard</a>
+</div> -->
+
+
+</body>
+</html>
