@@ -1,0 +1,137 @@
+header, section, footer, article, hgroup, aside, nav{display:block;}
+*     {padding:0px;
+      margin:0px;
+      page-size:}
+h1    {font: bold 20px Novecento wide;}
+h3    {font: bold 14px Novecento wide;}
+body  {width: 100%;
+      box-pack:center;
+      margin-right:10px;}
+#everything{width:100%;
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      -webkit-box-flex:0;}
+/*We can use -webkit-box-ordinal-group:1 to arrange the order*/
+/*We can use -webkit-box-align:center to position everything center*/
+#highest_head{background:red;
+      border: 20px double darkblue;
+      padding:20px;
+      border-radius:7px;
+      box-shadow:rgba(87, 87, 87, .5) 10px 7px 10px;
+      background:-webkit-radial-gradient(center, circle, red 0%, orange 100%);}
+#top_bar{border:3px solid rgb(187, 187, 187);
+      background:rgb(0, 59, 172);
+      color:rgb(236, 247, 36);
+      margin-top:5px;
+      border-radius:7px;}
+#top_bar li{display:inline-block;
+      /*font-family:tf2 build;
+      list-style:none;
+      padding:7px;
+      padding-left:20px;
+      padding-right:20px;
+      text-shadow:rgb(148, 148, 148) 3px 3px 3px;
+      border-right:5px solid darkgreen;*/}
+#middle{display:-webkit-box;
+      box-orient:horizontal;}
+#main_content{border: 15px double rgb(189, 150, 50);
+      -webkit-box-flex:1;
+      margin-top:5px;
+      margin-right:5px;
+      padding:10px;
+      border-radius:7px;}
+#side_bar{border:5px solid rgb(87, 55, 193);
+      margin-top:5px;
+      padding:20px;
+      width:220px;
+      background:rgb(128, 201, 122);
+      border-radius:7px;
+      font-family:Novecento wide;
+      background:-webkit-linear-gradient(top,rgb(87, 215, 76),rgb(221, 255, 203));}
+#under_page{text-align:center;
+      padding:30px;
+      border:5px rgb(204, 53, 139) solid;
+      margin-top:5px;
+      border-radius:7px;}
+article{border:5px solid rgb(39, 201, 212);
+      background-color:#FFFEF2;
+      margin:10px;
+      padding:10px;
+      border-radius:7px;
+      font-family:TW cen MT;
+      font-size:17px;
+      -webkit-transition: box-shadow 0.25s;}
+article:hover{box-shadow:rgba(132, 195, 227, 0.83) 0px 0px 9px 1px;
+      -webkit-transform:scale(1.01);}
+#OG   {border: 3px solid black;
+      border-radius:3px;
+      box-shadow:rgb(150, 150, 150) 5px 3px 10px 1px;
+      -webkit-transform:translate(375px,-75px);
+      width:250px;}
+.boxx {font-family:tf2 build;
+      list-style:none;
+      padding:20px;
+      padding-left:20px;
+      padding-right:20px;
+      border-right:3px solid rgb(187, 187, 187);
+      -webkit-transition:-webkit-transform 0.25s, font-weight 0s, border-left 0s;
+      font-size:15px;}
+.boxx:hover{-webkit-transform:scale(1.1);
+      font-weight:bold;}
+#video{text-align:center;
+      width:550px;
+      padding-top:5px;
+      background:rgb(255, 153, 0);
+      border:2px solid red;
+      border-radius:7px;
+      padding-bottom:5px;}
+#java {padding-bottom:2px;}
+#play_button{float:left;
+      width:50px;
+      height:1px;}
+#pause_button{padding-top:0px;}
+#loading_bar{position:relative;
+      float:left;
+      width:463px;
+      height:5px;
+      padding:2px;
+      margin:4px;
+      border:2px double black;
+      background:rgb(151, 229, 240);}
+#progressbar{position:absolute;
+      width:0px;
+      height:5px;
+      background:rgb(255, 0, 0);}
+#good {border: 2px double black;}
+#Drag {float:left;
+      text-align: center;
+      border:4px double rgb(158, 232, 179);
+      width:250px;
+      height:250px;
+      padding:7px;
+      position:relative;}
+#Drop {float:right;
+      position:relative;
+      top:-37px;
+      padding-right:240px;}
+#Here {font:bold 36px BlowBrush;
+      color:rgb(227, 0, 255);
+      text-align:center;
+      padding:7px;
+      float:right;
+      border:4px double rgb(158, 232, 179);
+      width:250px;
+      height:250px;
+      position:relative;
+      top:-37px;}
+#left {float:left;
+      padding:20px;
+      border:5px double rgb(93, 68, 213);
+      width:270px;
+      margin-top:20px;}
+#right{float:left;
+      padding:20px;
+      border:5px double rgb(93, 68, 213);
+      margin-top:20px;
+      width:270px;}
+#creation{padding-right:10px;}

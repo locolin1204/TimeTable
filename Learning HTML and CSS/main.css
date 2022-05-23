@@ -1,0 +1,64 @@
+header, section, footer, nav, aside, hgroup, article{display:block;}
+*           {font-family:ModeNine;
+            margin:0px;
+            padding:0px;}
+h1          {font:bold 20px Futura;}
+h3          {font: 14px nevis;}
+body        {text-align:center;}
+#everything {border: 15px double darkblue;
+            width:1000px;
+            margin:0
+            px auto;
+            text-align:left;}
+#highest_head{background:red;
+            border:5px solid gold;
+            padding:20px;}
+#top_bar    {background:#3CEBD0;
+            color:grey;
+            font-size:17px;}
+#top_bar li {display:inline-block;
+            list-style:none;
+            padding:10px;}
+#main_content{float:left;
+            width:660px;
+            margin:30px;}
+#side_bar   {float:left;
+            width:220px;
+            margin:20px 0px;
+            padding:30px;
+            background:pink;}
+#under_page {clear:both;
+            text-align:center;
+            padding:20px;
+            border-top: 15px double green;}
+article     {background:#FF9926;
+            border: 5px solid grey;
+            padding:20px;
+            margin-bottom:15px;}
+article footer{text-align:right;}
+p#great     {color:blue;
+            font-family:roboto;}
+p.notgreat  {color:green;
+            font-family:Arial;}
+p[name]     {color:purple;
+            font-family:fantasy;
+            font-weight:bold;}
+p[name="have"]{color:orange;
+            font-family:augie;}
+p[name*="lol"]{color:darkblue;
+  font-family:fairview;}
+p[name^="lol"]{color:gold;
+            font-family:Bebas Neue;}
+p[name$="lol"]{color:red;
+            font-family:Colonna MT;}
+div#abc>p       {color:grey;
+            font-family:Letter Gothic Std;}
+p.children:nth-child(odd){color:violet;
+            font-family:OCR A Std;}
+p.children:nth-child(even){color:#047E09;
+            font-family:Lithos Pro;}
+/*:not(.children){font-family:Raleway;}*/
+p.grand+p   {color:#0631B9;
+            font-family:Sansation Light;}
+p.ma~p      {color:#559E90;
+            font-family:Schoolbell;}
