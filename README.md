@@ -1,3 +1,3 @@
 # TimeTable
 
-Interactive HTML Timetables for my online lessons.
+Interactive HTML timetables for my online lessons.
